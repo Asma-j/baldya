@@ -1511,13 +1511,7 @@
       </div>
     </nav>
     <div class="container">
-      <div class="form-group form-check">
-        <label
-          class="form-check-label"
-          for="exampleCheck1"
-          style="margin-right: 10px"
-          ><h4>mail</h4></label
-        >
+      <div class="form-group form-check" style="margin-left: 350px">
         <input
           type="checkbox"
           class="form-check-input"
@@ -1528,8 +1522,21 @@
           class="form-check-label"
           for="exampleCheck1"
           style="margin-right: 10px"
-          ><h4>facebook</h4></label
+          ><h4>البريد الالكتروني</h4></label
         >
+        <input
+          type="checkbox"
+          class="form-check-input"
+          id="exampleCheck1"
+          style="margin-right: 10px"
+        />
+        <label
+          class="form-check-label"
+          for="exampleCheck1"
+          style="margin-right: 10px"
+          ><h4>موقع التواصل الاجتماعي</h4></label
+        >
+
         <input
           type="checkbox"
           class="form-check-input"
@@ -1541,7 +1548,7 @@
           class="form-check-label"
           for="exampleCheck1"
           style="margin-right: 10px"
-          ><h4>contact direct</h4></label
+          ><h4>اتصال مباشر</h4></label
         >
         <input
           type="checkbox"
@@ -1549,25 +1556,11 @@
           id="exampleCheck1"
           style="margin-right: 10px"
         />
-
         <label
           class="form-check-label"
           for="exampleCheck1"
           style="margin-right: 10px"
-          ><h4>contact téléphonique</h4></label
-        >
-        <input
-          type="checkbox"
-          class="form-check-input"
-          id="exampleCheck1"
-          style="margin-right: 10px"
-        />
-
-        <label
-          class="form-check-label"
-          for="exampleCheck1"
-          style="margin-right: 10px"
-          ><h4>courrier</h4></label
+          ><h4>اتصال هاتفي</h4></label
         >
         <input
           type="checkbox"
@@ -1580,49 +1573,149 @@
           class="form-check-label"
           for="exampleCheck1"
           style="margin-right: 10px"
-          ><h4>site web</h4></label
-        ><input
+          ><h4>بريد</h4></label
+        >
+
+        <input
           type="checkbox"
           class="form-check-input"
           id="exampleCheck1"
           style="margin-right: 10px"
         />
+        <label
+          class="form-check-label"
+          for="exampleCheck1"
+          style="margin-right: 10px"
+          ><h4>موقع الكتروني</h4></label
+        >
       </div>
 
-      <form>
+      <form style="text-align: right">
         <div class="form-group">
-          <label for="exampleInputEmail1"
-            ><h4>Personne ayant réclamé</h4></label
-          >
+          <label for="exampleInputEmail1"><h4>اسم و لقب صاحب الشكوى</h4></label>
 
           <input
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
+            style="text-align: right"
           />
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1"
-            ><h4>personne ayant reçu la réclamation</h4></label
+            ><h4>اسم و لقب متلقي الشكوى</h4></label
           >
-          <input class="form-control" id="exampleInputPassword1" />
+          <input
+            class="form-control"
+            id="exampleInputPassword1"
+            style="text-align: right"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1"> <h4>موضوع الشكوى</h4></label>
+          <input
+            class="form-control"
+            id="exampleInputPassword1"
+            style="text-align: right"
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1"
+            ><h4>مسؤول عن معالجة الشكوى</h4>
+          </label>
+          <input " class="form-control" id="exampleInputPassword1"
+          placeholde=""style="text-align: right" />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1"> <h4>التاريخ</h4></label>
+          <input
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholde=""
+            style="text-align: right"
+          />
+        </div>
+        <hr
+          style="
+            border: none;
+            border-top: 3px double #333;
+            color: #333;
+            overflow: visible;
+            text-align: center;
+            height: 5px;
+          "
+        />
+        <div class="form-group form-check">
+          <h4>:الشكوى</h4>
+          <label
+            class="form-check-label"
+            for="exampleCheck1"
+            style="margin-right: 40px"
+            ><h4>مثبتة</h4></label
+          >
+          <input
+            type="checkbox"
+            class="form-check-input"
+            style="margin-right: 40px"
+          />
+          <label
+            class="form-check-label"
+            for="exampleCheck1"
+            style="margin-right: 40px"
+            ><h4>غير مثبتة</h4></label
+          >
+          <input
+            type="checkbox"
+            class="form-check-input"
+            style="margin-right: 40px"
+          />
         </div>
         <div class="form-group">
           <label for="exampleInputPassword1">
-            <h4>objet de réclamation</h4></label
-          >
-          <input class="form-control" id="exampleInputPassword1" />
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1"
-            ><h4>Responsable de traitement</h4>
+            <h4>اجرائات متخذة اذا تم تثبيت الشكوى (معالجة الاسباب)</h4>
           </label>
-          <input " class="form-control" id="exampleInputPassword1" placeholde=""
+          <input
+            style="text-align: right"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholde=""
           />
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1"> <h4>date</h4></label>
+          <label for="exampleInputPassword1">
+            <h4>المسؤول عن الانجاز</h4></label
+          >
           <input
+            style="text-align: right"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholde=""
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="exampleInputPassword1"><h4>التاريخ المتوقع</h4></label>
+          <input
+            style="text-align: right"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholde=""
+          />
+        </div>
+        <h4>:تتم المعالجة</h4>
+        <div class="form-group">
+          <label for="exampleInputPassword1"><h4>من قبل</h4> </label>
+          <input
+            style="text-align: right"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholde=""
+          />
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1"><h4>التاريخ</h4></label>
+          <input
+            style="text-align: right"
             class="form-control"
             id="exampleInputPassword1"
             placeholde=""
@@ -1639,12 +1732,17 @@
           "
         />
         <div class="form-group form-check">
-          <h4>Réclamation:</h4>
+          <h4>المواطن راض</h4>
+          <input
+            type="checkbox"
+            class="form-check-input"
+            style="margin-right: 40px"
+          />
           <label
             class="form-check-label"
             for="exampleCheck1"
             style="margin-right: 40px"
-            ><h4>Fondée</h4></label
+            ><h4>نعم</h4></label
           >
           <input
             type="checkbox"
@@ -1655,84 +1753,23 @@
             class="form-check-label"
             for="exampleCheck1"
             style="margin-right: 40px"
-            ><h4>Non Fondée</h4></label
+            ><h4>لا</h4></label
           >
-          <input
-            type="checkbox"
-            class="form-check-input"
-            style="margin-right: 40px"
-          />
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">
-            <h4>Action prise si la réclamation est fondée(action curative)</h4>
+        <div class="form-group form-check">
+          <h4>:الحاجة الى اجرائات تصحيحية</h4>
+          <input
+            type="checkbox"
+            class="form-check-input"
+            style="margin-right: 40px"
+          />
+          <label
+            class="form-check-label"
+            for="exampleCheck1"
+            style="margin-right: 40px"
+            ><h4>نعم</h4>
           </label>
           <input
-            style="text-align: right"
-            class="form-control"
-            id="exampleInputPassword1"
-            placeholde=""
-          />
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">
-            <h4>Responsable de l'action</h4></label
-          >
-          <input
-            style="text-align: right"
-            class="form-control"
-            id="exampleInputPassword1"
-            placeholde=""
-          />
-        </div>
-
-        <div class="form-group">
-          <label for="exampleInputPassword1"><h4>Date prévue</h4></label>
-          <input
-            style="text-align: right"
-            class="form-control"
-            id="exampleInputPassword1"
-            placeholde=""
-          />
-        </div>
-        <h4>Traitement effectué:</h4>
-        <div class="form-group">
-          <label for="exampleInputPassword1"><h4>Par</h4> </label>
-          <input
-            style="text-align: right"
-            class="form-control"
-            id="exampleInputPassword1"
-            placeholde=""
-          />
-        </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1"><h4>Date</h4></label>
-          <input
-            style="text-align: right"
-            class="form-control"
-            id="exampleInputPassword1"
-            placeholde=""
-          />
-        </div>
-        <hr
-          style="
-            border: none;
-            border-top: 3px double #333;
-            color: #333;
-            overflow: visible;
-            text-align: center;
-            height: 5px;
-          "
-        />
-        <div class="form-group form-check">
-          <h4>Client satisfait:</h4>
-          <label
-            class="form-check-label"
-            for="exampleCheck1"
-            style="margin-right: 40px"
-            ><h4>Oui</h4></label
-          >
-          <input
             type="checkbox"
             class="form-check-input"
             style="margin-right: 40px"
@@ -1741,41 +1778,11 @@
             class="form-check-label"
             for="exampleCheck1"
             style="margin-right: 40px"
-            ><h4>Non</h4></label
+            ><h4>لا</h4></label
           >
-          <input
-            type="checkbox"
-            class="form-check-input"
-            style="margin-right: 40px"
-          />
-        </div>
-        <div class="form-group form-check">
-          <h4>Besoin en action corrective:</h4>
-          <label
-            class="form-check-label"
-            for="exampleCheck1"
-            style="margin-right: 40px"
-            ><h4>Oui</h4></label
-          >
-          <input
-            type="checkbox"
-            class="form-check-input"
-            style="margin-right: 40px"
-          />
-          <label
-            class="form-check-label"
-            for="exampleCheck1"
-            style="margin-right: 40px"
-            ><h4>Non</h4></label
-          >
-          <input
-            type="checkbox"
-            class="form-check-input"
-            style="margin-right: 40px"
-          />
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1"><h4>Date</h4></label>
+          <label for="exampleInputPassword1"><h4>التاريخ</h4></label>
           <input
             style="text-align: right"
             class="form-control"
@@ -1783,8 +1790,7 @@
             placeholde=""
           />
         </div>
-
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">تسجيل</button>
       </form>
     </div>
   </body>
